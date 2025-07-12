@@ -1,4 +1,11 @@
 {
+  "builds": [
+    {
+      "src": "./index.js",
+      "use": "@vercel/node",
+      "config": { "distDir": "build" }
+    }
+  ],
   "routes": [
     { "src": "/add-volume", "dest": "/add-volume.html", "headers": { "Cache-Control": "no-cache" } },
     { "src": "/(logo.png|favicon.svg)", "dest": "/$1" },
