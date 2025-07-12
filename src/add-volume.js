@@ -1,5 +1,5 @@
 import { ethers } from 'ethers';
-import '../src/style.css'; 
+import '/style.css'; 
 import imgUrl from '/logo.png'
 document.getElementById('title-logo').src = imgUrl
 
