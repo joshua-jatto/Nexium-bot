@@ -1,4 +1,4 @@
-import "/style.css";
+import '../src/style.css'
 import imgUrl from '/logo.png'
 
 const launchBtn = document.getElementById("launchBtn");

@@ -1,9 +1,6 @@
 import { ethers } from 'ethers';
+import '../src/style.css'; 
 import imgUrl from '/logo.png'
-
-
-
-
 document.getElementById('title-logo').src = imgUrl
 
 const CONTRACT_ADDRESS = '0x787Dc66a47cAe12Abd3130Ad6dD700c1313666bf';
