@@ -4,7 +4,7 @@ import tailwindcss from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
 
 export default defineConfig({
-  root: '.', // Project root is src
+  root: 'src', // Project root is src
   publicDir: '../public', // Public assets outside src
   base: '/', // Adjust to '/repo-name/' if hosting in a subdirectory
   build: {
@@ -16,8 +16,8 @@ export default defineConfig({
     minify: 'terser', // Use terser for minification
     rollupOptions: {
       input: {
-        main: './index.html', // Entry point 1
-        addVolume: './add-volume.html' // Entry point 2
+        main: '/index.html', // Entry point 1
+        addVolume: '/add-volume.html' // Entry point 2
       }
     }
   },
