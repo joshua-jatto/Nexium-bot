@@ -1,12 +1,6 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "dist/**/*",
-        "use": "@vercel/static"
-  
-      }
-    ],
+    
     "routes": [
       { "src": "/add-volume", "dest": "/add-volume.html" },
       { "src": "/(logo.png|favicon.svg)", "dest": "/$1" },
